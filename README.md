@@ -1,16 +1,41 @@
-# Project Spiral
+# Class Schedule & Attendance App
 
-A cross-platform student attendance and teacher management app.
+A modern cross-platform application for managing class schedules, attendance, and leave management for educational institutions.
 
-## Features
+## Current Status
+- Basic project setup with Expo and React Native
+- Navigation structure in place
+- Initial UI components started
+- Backend API structure defined
 
-- Student and teacher login (JWT authentication)
-- Student dashboard: Today's classes, attendance status
-- Attendance history
-- Teacher dashboard: Real-time class attendance, manual override, CSV export
-- Biometric punch-in support (API endpoint)
-- Modern UI (React Native + Styled Components)
-- Backend: Node.js, Express, MongoDB
+## Upcoming Features
+
+### Phase 1: Project Setup & Foundation (In Progress)
+- [x] Project structure setup
+- [x] Theme and global styles
+- [ ] Core dependencies installation
+
+### Phase 2: UI Components
+- [ ] Shared component library
+- [ ] Theme & styling system
+- [ ] Responsive layouts
+
+### Phase 3: Core Features
+- [ ] Authentication flow
+- [ ] Dashboard with upcoming/current classes
+- [ ] Class schedule management
+- [ ] Leave management system
+- [ ] Calendar view
+
+### Phase 4: Additional Features
+- [ ] Notification system
+- [ ] Profile & settings
+- [ ] Search & filters
+
+### Phase 5: Testing & Polish
+- [ ] Unit & integration tests
+- [ ] Performance optimization
+- [ ] UI/UX polish
 
 ## Getting Started
 
