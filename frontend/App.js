@@ -37,7 +37,19 @@ const screenOptions = ({ route }) => ({
     return <MaterialIcons name={iconName} size={size} color={color} />;
   },
   tabBarActiveTintColor: theme.colors.primary,
-  tabBarInactiveTintColor: 'gray',
+  tabBarInactiveTintColor: theme.colors.text.secondary,
+  tabBarLabelStyle: {
+    fontSize: 12,
+    marginBottom: 4,
+  },
+  tabBarStyle: {
+    height: 60,
+    paddingTop: 8,
+    paddingBottom: 8,
+    backgroundColor: theme.colors.white,
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.border,
+  },
   headerShown: false,
 });
 
@@ -49,22 +61,30 @@ export default function App() {
           <Tab.Screen 
             name="Dashboard" 
             component={DashboardScreen} 
-            options={{ title: 'Home' }}
+            options={{
+              title: 'Home',
+            }}
           />
           <Tab.Screen 
             name="History" 
             component={HistoryScreen} 
-            options={{ title: 'History' }}
+            options={{
+              title: 'History',
+            }}
           />
           <Tab.Screen 
             name="Profile" 
             component={ProfileScreen} 
-            options={{ title: 'Profile' }}
+            options={{
+              title: 'Profile',
+            }}
           />
           <Tab.Screen 
             name="Settings" 
-            component={SettingsScreen}
-            options={{ title: 'Settings' }}
+            component={SettingsScreen} 
+            options={{
+              title: 'Settings',
+            }}
           />
         </Tab.Navigator>
       </NavigationContainer>
